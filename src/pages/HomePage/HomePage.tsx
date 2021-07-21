@@ -19,19 +19,17 @@ export class HomePage extends Component {
   }
 
   public render() {
-    // const textTransitions = this.headerMatrix[0].map((column, index) => {
-    //   if (this.state.headerMatrixIndex === 0 && index === 3) {
-    //     return <TextTransition style={{ marginRight: "0.3em" }} key={index} inline text={this.headerMatrix[this.state.headerMatrixIndex][index]} />;
-    //   }
+    const textTransitions = this.headerMatrix[0].map((column, index) => {
+      if (this.state.headerMatrixIndex === 0 && index === 3) {
+        return <TextTransition style={{ marginRight: "0.3em" }} key={index} inline text={this.headerMatrix[this.state.headerMatrixIndex][index]} />;
+      }
 
-    //   return <TextTransition inline key={index} text={this.headerMatrix[this.state.headerMatrixIndex][index]} />;
-    // });
+      return <TextTransition inline key={index} text={this.headerMatrix[this.state.headerMatrixIndex][index]} />;
+    });
 
     return (
       <div style={{ textAlign: "center" }}>
-        <h1>
-          <TextTransition text={"test"} />
-        </h1>
+        <h1>{textTransitions}</h1>
         <div onMouseOver={() => this.changeHeaderMatrixIndex(0)}>me</div>
         <div onMouseOver={() => this.changeHeaderMatrixIndex(1)}>
           <a href="https://owen.devine.dev">website</a>
