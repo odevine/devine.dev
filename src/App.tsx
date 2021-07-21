@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import { Root, Routes } from 'react-static'
-import { Router } from '@reach/router'
-import './app.css'
+import React, { Component } from "react";
+import { Root, Routes } from "react-static";
+import { Router } from "@reach/router";
+import "./app.css";
 
 class App extends Component {
-  render() {
+  public render() {
     return (
       <Root>
         <div className="content">
@@ -15,8 +15,8 @@ class App extends Component {
           </React.Suspense>
         </div>
       </Root>
-    )
+    );
   }
 }
 
-export default App
+export default App;
