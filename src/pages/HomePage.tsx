@@ -25,7 +25,7 @@ export class HomePage extends Component {
     },
     {
       text: "website",
-      subHeader: "built in a couple hours",
+      subHeader: "built in a couple hours to try out react-static",
       link: "https://owen.devine.dev",
       transitionArray: ["", "o", "w", "e", "n", ".", "d", "e", "v", "i", "n", "e", ".dev"],
     },
@@ -37,19 +37,19 @@ export class HomePage extends Component {
     },
     {
       text: "github",
-      subHeader: "where my bad ideas go to die",
+      subHeader: "the place where my bad ideas go to die",
       link: "https://github.com/odevine",
       transitionArray: ["", "o", "", "", "", "", "d", "e", "v", "i", "n", "e", ""],
     },
     {
       text: "twitter",
-      subHeader: "social media account i forget that i have",
+      subHeader: "the social media account that i forget i have",
       link: "https://twitter.com/ondvn",
       transitionArray: ["@", "o", "", "", "n", "", "d", "", "v", "", "n", "", ""],
     },
     {
       text: "discord",
-      subHeader: "terrible chat app that i use instead of social media",
+      subHeader: "the terrible chat app that i use instead of social media",
       transitionArray: ["", "o", "", "", "", "", "d", "e", "", "", "", "", "#0001"],
     },
   ];
