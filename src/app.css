@@ -19,6 +19,10 @@ img {
   padding: 1rem;
 }
 
+.buttonSection {
+  margin-top: 32px;
+}
+
 .homeButton {
   display: block;
   margin: 10px auto;
