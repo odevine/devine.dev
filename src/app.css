@@ -34,4 +34,9 @@ img {
   border: 2px solid #252525;
   text-decoration: none;
   color: #252525;
+  transition: 0.3s;
+}
+
+.homeButton:hover {
+  background-color: #ffeddc;
 }
