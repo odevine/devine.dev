@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import TextTransition from "react-text-transition";
 import Img from "react-optimized-image";
 import profile from "images/ode.png";
-import { TransitionButton } from "components";
+import { HomeButton } from "components";
 
 export class HomePage extends Component {
   public state = {
@@ -81,7 +81,7 @@ export class HomePage extends Component {
         <div style={{ textAlign: "center" }}>
           <h1>{textTransitions}</h1>
           {this.buttonContent.map((button, index) => (
-            <TransitionButton key={index} onMouseOver={() => this.changeHeaderMatrixIndex(index)} buttonText={button.text} linkRef={button.link} />
+            <HomeButton key={index} onMouseOver={() => this.changeHeaderMatrixIndex(index)} buttonText={button.text} linkRef={button.link} />
           ))}
         </div>
       </>

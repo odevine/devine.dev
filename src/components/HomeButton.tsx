@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-export interface TransitionButtonProps {
+export interface HomeButtonProps {
   buttonText: string;
   linkRef?: string;
   onMouseOver: () => void;
 }
 
-export class TransitionButton extends Component<TransitionButtonProps> {
+export class HomeButton extends Component<HomeButtonProps> {
   public state = {};
 
   public render() {
