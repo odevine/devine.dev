@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-weight: 300;
   font-size: 16px;
   font-weight: bold;
@@ -7,11 +9,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fffaf4;
-}
-
-a {
-  text-decoration: none;
-  color: #252525;
 }
 
 img {
@@ -24,12 +21,27 @@ img {
   padding: 1rem;
 }
 
+.fakeSpace {
+  margin-right: 19px;
+}
+
+.buttonSection {
+  margin-top: 32px;
+}
+
 .homeButton {
+  display: block;
   margin: 10px auto;
   width: 80px;
+  height: 24px;
   padding: 10px 60px;
   border-radius: 8px;
-  font-size: 20px;
-  cursor: pointer;
   border: 2px solid #252525;
+  text-decoration: none;
+  color: #252525;
+  transition: 0.3s;
+}
+
+.homeButton:hover {
+  background-color: #ffeddc;
 }
