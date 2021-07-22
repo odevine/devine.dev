@@ -68,7 +68,7 @@ export class HomePage extends Component {
             inline
             key={index}
             springConfig={{ mass: 1, tension: 300, friction: 26, clamp: true }}
-            style={{ marginRight: "0.25em" }}
+            className="fakeSpace"
             text={this.buttonContent[this.state.headerMatrixIndex].transitionArray[index]}
           />
         );

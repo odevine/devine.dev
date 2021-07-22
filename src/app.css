@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
   font-weight: 300;
   font-size: 16px;
   font-weight: bold;
@@ -17,6 +19,10 @@ img {
 
 .content {
   padding: 1rem;
+}
+
+.fakeSpace {
+  margin-right: 19px;
 }
 
 .buttonSection {
