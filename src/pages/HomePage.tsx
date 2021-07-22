@@ -80,9 +80,11 @@ export class HomePage extends Component {
         <Img src={profile} alt="A picture of me" sizes={[400]}></Img>
         <div style={{ textAlign: "center" }}>
           <h1>{textTransitions}</h1>
-          {this.buttonContent.map((button, index) => (
-            <HomeButton key={index} onMouseOver={() => this.changeHeaderMatrixIndex(index)} buttonText={button.text} linkRef={button.link} />
-          ))}
+          <div>
+            {this.buttonContent.map((button, index) => (
+              <HomeButton key={index} onMouseOver={() => this.changeHeaderMatrixIndex(index)} buttonText={button.text} linkRef={button.link} />
+            ))}
+          </div>
         </div>
       </>
     );

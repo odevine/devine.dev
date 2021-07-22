@@ -13,9 +13,9 @@ export class HomeButton extends Component<HomeButtonProps> {
     const { buttonText, linkRef, onMouseOver } = this.props;
     if (linkRef) {
       return (
-        <div onMouseOver={onMouseOver} className="homeButton">
-          <a href={linkRef}>{buttonText}</a>
-        </div>
+        <a href={linkRef} className="homeButton" onMouseOver={onMouseOver}>
+          <div>{buttonText}</div>
+        </a>
       );
     } else {
       return (
