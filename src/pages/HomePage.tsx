@@ -43,13 +43,13 @@ export class HomePage extends Component {
     },
     {
       text: "twitter",
-      subHeader: "the social media account that i forget i have",
+      subHeader: "the social media account i forget i have",
       link: "https://twitter.com/ondvn",
       transitionArray: ["@", "o", "", "", "n", "", "d", "", "v", "", "n", "", ""],
     },
     {
       text: "discord",
-      subHeader: "the terrible chat app that i use instead of social media",
+      subHeader: "the terrible chat app i use instead of social media",
       transitionArray: ["", "o", "", "", "", "", "d", "e", "", "", "", "", "#0001"],
     },
   ];
