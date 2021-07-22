@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import TextTransition from "react-text-transition";
 import Img from "react-optimized-image";
+import FadeIn from "react-fade-in";
+
 import profile from "images/ode.png";
 import { HomeButton } from "components";
 
@@ -83,7 +85,7 @@ export class HomePage extends Component {
     });
 
     return (
-      <>
+      <FadeIn>
         <Img src={profile} alt="A picture of me" sizes={[400]}></Img>
         <div style={{ textAlign: "center" }}>
           <h1>{textTransitions}</h1>
@@ -94,7 +96,7 @@ export class HomePage extends Component {
             ))}
           </div>
         </div>
-      </>
+      </FadeIn>
     );
   }
 }

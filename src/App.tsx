@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <Root>
         <div className="content">
-          <React.Suspense fallback={<em>Loading...</em>}>
+          <React.Suspense fallback={" "}>
             <Router>
               <Routes path="*" />
             </Router>
