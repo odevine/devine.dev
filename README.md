@@ -1,1 +1,1 @@
-Init
+Personal website that I built in a couple of hours to try out react-static. Will probably create a boilerplate version of it as it does have all my favorite stuff in it (typescript, hot-loading modules, eslint/prettier)

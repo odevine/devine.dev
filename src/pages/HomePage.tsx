@@ -20,13 +20,13 @@ export class HomePage extends Component {
   }> = [
     {
       text: "me",
-      subHeader: "24yo software developer in dayton, oh",
+      subHeader: "software developer in dayton, oh",
       transitionArray: ["", "o", "w", "e", "n", " ", "d", "e", "v", "i", "n", "e", ""],
     },
     {
       text: "website",
       subHeader: "built in a couple hours to try out react-static",
-      link: "https://owen.devine.dev",
+      link: "https://github.com/odevine/devine.dev",
       transitionArray: ["", "o", "w", "e", "n", ".", "d", "e", "v", "i", "n", "e", ".dev"],
     },
     {
