@@ -31,7 +31,7 @@ export class HomePage extends Component {
     },
     {
       text: "contact",
-      subHeader: "powered by protonmail <3",
+      subHeader: "powered by fastmail <3",
       link: "mailto: owen@devine.dev",
       transitionArray: ["", "o", "w", "e", "n", "@", "d", "e", "v", "i", "n", "e", ".dev"],
     },
