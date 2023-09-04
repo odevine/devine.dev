@@ -1,22 +1,13 @@
-import React, { Component } from "react";
-import { Root, Routes } from "react-static";
-import { Router } from "@reach/router";
-import "./app.css";
+import "./App.css";
 
-class App extends Component {
-  public render() {
-    return (
-      <Root>
-        <div className="content">
-          <React.Suspense fallback={" "}>
-            <Router>
-              <Routes path="*" />
-            </Router>
-          </React.Suspense>
-        </div>
-      </Root>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        Hello
+      </header>
+    </div>
+  );
 }
 
 export default App;
