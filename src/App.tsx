@@ -1,13 +1,20 @@
-import "./App.css";
+import { useRoutes } from "raviger";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Hello
-      </header>
-    </div>
-  );
+import { Home } from "components";
+
+const routes = {
+    "/": () => <Home />,
 }
 
-export default App;
+export const App = () => {
+    const route = useRoutes(routes)
+    return (
+        <>
+            {/* <div>
+                <Link href="/">Home</Link>
+                <Link href="/not">Not Home</Link>
+            </div> */}
+            {route}
+        </>
+    );
+};
