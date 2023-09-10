@@ -1,5 +1,10 @@
 // Pages
-export * from "./pages"
+export * from "./Pages"
 
 // Individual Components
 export * from "./Button";
+export * from "./Header/Header";
+export * from "./Header/HeaderStyled";
+export * from "./ThemeToggle/ThemeProvider";
+export * from "./ThemeToggle/ThemeToggle";
+export * from "./ThemeToggle/ThemeToggleIcon";

@@ -1,6 +1,8 @@
+import { useContext } from "react";
 import { useRoutes } from "raviger";
 
-import { Home } from "components";
+import { Home, Header, ThemeContext } from "Components";
+import { AppWrapper } from "./GlobalStyles";
 
 const routes = {
     "/": () => <Home />,
@@ -8,13 +10,16 @@ const routes = {
 
 export const App = () => {
     const route = useRoutes(routes)
+    const { theme } = useContext(ThemeContext);
+
     return (
-        <>
+        <AppWrapper className={theme}>
+            <Header />
             {/* <div>
                 <Link href="/">Home</Link>
                 <Link href="/not">Not Home</Link>
             </div> */}
             {route}
-        </>
+        </AppWrapper>
     );
-};
+}
