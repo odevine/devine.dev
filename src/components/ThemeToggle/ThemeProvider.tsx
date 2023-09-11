@@ -14,12 +14,12 @@ const getTheme = () => {
             localStorage.setItem("theme", theme);
         }
     }
-    return theme as string;
+    return theme as "dark" | "light";
 }
 
 const ThemeContext = createContext({
     theme: getTheme(),
-    setTheme: (v: string) => { v },
+    setTheme: (v: "light" | "dark") => { v },
     toggleTheme: () => {},
 });
 
