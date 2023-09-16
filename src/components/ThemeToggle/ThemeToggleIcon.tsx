@@ -21,7 +21,7 @@ export const ThemeToggleIcon = () => {
             opacity: 1
         }
     };
-    const springConfig = { mass: 4, tension: 250, friction: 35 }
+    const springConfig = { mass: 3, tension: 275, friction: 35 }
     
     const { r, transform, cx, cy, opacity } = properties[theme];
 
@@ -51,7 +51,7 @@ export const ThemeToggleIcon = () => {
         >
             <mask id="myMask2">
                 <rect x="0" y="0" width="100%" height="100%" fill={theme === "light" ? "white" : "currentColor"} />
-                <animated.circle r="9" fill="black" cx={maskedCircleProps.cx} cy={maskedCircleProps.cy}/>
+                <animated.circle r="11" fill="black" cx={maskedCircleProps.cx} cy={maskedCircleProps.cy}/>
             </mask>
 
             <animated.circle
